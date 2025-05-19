@@ -1,0 +1,75 @@
+body{
+    background-color:teal;
+}
+.pos {
+    margin: auto;
+    width: 500px;
+    margin-top: 10px;
+    /* border: 1px solid salmon; */
+}
+
+.input {
+    border-radius: 5px;
+    height: 6vh;
+    width: 15vw;
+}
+
+.add {
+    border-radius: 5px;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+
+.todo {
+    margin: auto;
+    width: 50vw;
+    /* border: 1px solid salmon; */
+    height: 30vh;
+}
+
+.text {
+    /* border: 1px solid salmon; */
+    margin-left: 34vw;
+    color: brown;
+    width: 15vw;
+}
+
+.alert {
+    margin-left: 34vw;
+    width: 20vw;
+    border: 1px solid salmon;
+}
+
+.txt {
+    border: 1px solid black;
+    width: 20vw;
+    height: 8vh;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color:indianred ;
+    color: white;
+}
+
+.update {
+    height: 8vh;
+    /* border: 1px solid salmon; */
+    width: 8vw;
+    margin-right: 10px;
+    background-color: greenyellow;
+    border-radius: 8px;
+
+}
+
+.delete {
+    height: 8vh;
+    /* border: 1px solid salmon; */
+    width: 8vw;
+    background-color: orange;
+    border-radius: 8px;
+
+}
+.new{
+    display: flex;
+}

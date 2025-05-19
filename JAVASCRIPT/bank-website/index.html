@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>bank-website</title>
+    <style>
+        body{
+            background-image: url(images/bg.jpg);;
+        }
+        .btn:hover {
+            background-color: brown;
+        }
+        #title{
+            margin-top:20vh;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="title" class="text-center mb-2 text-light">Welcome To ICICI Bank</h1>
+    <div>
+        <div class="p-5 mx-auto w-50 text-center">
+            <h3 class="text-warning">Please Login</h3>
+            <input id="email" class="mb-2 w-50 rounded p-2 w-50" type="text" placeholder="Enter Email address"><br>
+            <input id="password" class="mb-2 w-50 rounded p-2 w-50" type="password" placeholder="Your Password"><br>
+            <button id="btn" type="button" class="btn btn-success btn-sm fw-bold">Submit</button>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
